@@ -6,6 +6,7 @@ const Burger_menu = props => {
     return (
         <div className="Burger_menu">
             <button className="Order_btn">
+                <span>{props.img}</span>
             <h2>{props.name}</h2>
             {/*<input*/}
             {/*    onChange={props.change}*/}

@@ -11,6 +11,7 @@ const Menu = props => {
                         key={burger_menu.id}
                         name={burger_menu.name}
                         price={burger_menu.price}
+                        img={burger_menu.img}
                         // click={() => props.increaseAge(person.id)}
                         // change={(e) => props.changeName(e, person.id)}
                         // delete={() => props.deletePerson(person.id)}
