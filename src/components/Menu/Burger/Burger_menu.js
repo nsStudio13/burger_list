@@ -3,22 +3,15 @@ import "./Burger_menu.css"
 
 
 const Burger_menu = props => {
-    return (
-        <div className="Burger_menu">
-            <button className="Order_btn">
-                <span>{props.img}</span>
-            <h2>{props.name}</h2>
-            {/*<input*/}
-            {/*    onChange={props.change}*/}
-            {/*    type="text"*/}
-            {/*    value={props.name}*/}
-            {/*/>*/}
-            <p> Price: {props.price}</p>
 
-            {/*<button onClick={props.click}> Increase age </button>*/}
-            {/*<button onClick={props.delete}>Delete</button>*/}
-            </button>
-        </div>
+        return (
+            <div className="Burger_menu">
+                <button className="Order_btn">
+                <span>{props.category}</span>
+                <h2>{props.name}</h2>
+                <p> Price: {props.price}</p>
+                </button>
+              </div>
     )
 };
 

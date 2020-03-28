@@ -2,20 +2,21 @@ import React from "react";
 import Burger_menu from "./Burger/Burger_menu";
 
 
+
 const Menu = props => {
+
     return (
-        <div>
+        <div className="menu_block">
+            <h1> MENU ITEMS </h1>
+
             {
                 props.menu.map(burger_menu => {
                     return <Burger_menu
                         key={burger_menu.id}
                         name={burger_menu.name}
                         price={burger_menu.price}
-                        img={burger_menu.img}
-                        // click={() => props.increaseAge(person.id)}
-                        // change={(e) => props.changeName(e, person.id)}
-                        // delete={() => props.deletePerson(person.id)}
-                    />
+                        category={burger_menu.category}
+                        />
                 })
             }
         </div>

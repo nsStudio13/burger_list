@@ -38,3 +38,12 @@
     transform: rotate(360deg);
   }
 }
+.menu_block {
+  width: 500px;
+}
+.Order {
+  display: flex;
+  width: 420px;
+  border: 1px solid #cccccc;
+  margin: 10px 20px;
+}
