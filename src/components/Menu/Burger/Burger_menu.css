@@ -1,0 +1,9 @@
+.Burger_menu {
+    display: inline-block;
+    margin: 10px;
+}
+.Order_btn {
+    padding: 5px 33px;
+    border: 1px solid blue;
+    border-radius: 7px;
+}
